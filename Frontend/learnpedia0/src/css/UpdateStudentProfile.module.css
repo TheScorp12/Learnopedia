@@ -1,0 +1,149 @@
+ .body{
+    --main-color:#8e44ad;
+    --red:#e74c3c;
+    --orange:#f39c12;
+    --light-color:#888;
+    --light-bg:#eee;
+    --black:#2c3e50;
+    --white:#fff;
+    --border:.1rem solid rgba(0,0,0,.2);
+ }
+ 
+ .body{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+ }
+ 
+ .body::selection{
+    background-color: var(--main-color);
+    color:#fff;
+ }
+ 
+ .body{
+    font-size: 62.5%;
+    overflow-x: hidden;
+ } 
+ .studentprofilebody{
+    padding-top: 100px;
+ }
+ .section{
+   padding:2rem;
+   margin: 0 auto;
+   max-width: 600px;
+}
+
+.heading{
+   font-size: 2.5rem;
+   color:#2c3e50;
+   margin-bottom: 2.5rem;
+   border-bottom: .1rem solid rgba(0,0,0,.2);
+   padding-bottom: .5rem;
+   text-transform: capitalize;
+   text-align: center;
+}
+
+.inlinebtn,
+.inline-option-btn,
+.inline-delete-btn,
+.btn,
+.delete-btn,
+.option-btn{
+   border-radius: .2rem;
+   color:#fff;
+   font-size: 1rem;
+   cursor: pointer;
+   text-transform: capitalize;
+   padding:.2rem .6rem;
+   text-align: center;
+   margin-top: .2rem;
+}
+
+.btn,
+.delete-btn,
+.option-btn{
+   display: block;
+   width: 100%;
+}
+
+.inlinebtn,
+.inline-option-btn,
+.inline-delete-btn{
+   display: inline-block;
+}
+
+.btn,
+.inlinebtn{
+   background-color: #8e44ad;
+}
+
+.option-btn,
+.inline-option-btn{
+   background-color:#f39c12;
+}
+
+.delete-btn,
+.inline-delete-btn{
+   background-color: #e74c3c;
+}
+
+.inline-btn:hover,
+.inline-option-btn:hover,
+.inline-delete-btn:hover,
+.btn:hover,
+.delete-btn:hover,
+.option-btn:hover{
+   background-color: #2c3e50;
+   color: #fff;
+}
+
+.flexbtn{
+   display: flex;
+   gap: 1rem;
+}
+
+ .formcontainer{
+    font-size: 62.5%;
+    min-height: calc(100vh - 20rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .formcontainer form{
+    background-color: #fff;
+    border-radius: .5rem;
+    padding: 2rem;
+    width: 35rem;
+    height:50%;
+ }
+ 
+ .formcontainer form h3{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #2c3e50;
+    text-align: center;
+ }
+ 
+ .formcontainer form p{
+    font-size: 1rem;
+    color: #888;
+    padding-top: .5rem;
+ }
+ 
+ .formcontainer form p span{
+    color: #e74c3c;
+ }
+ 
+ .formcontainer form .box{
+    font-size: 1rem;
+    color: #2c3e50;
+    border-radius: .2rem;
+    padding: .8rem;
+    background-color: #eee;
+    width: 100%;
+    margin: .5rem 0;
+ }
+ 

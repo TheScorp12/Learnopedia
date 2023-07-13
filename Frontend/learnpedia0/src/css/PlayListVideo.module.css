@@ -1,0 +1,378 @@
+:root{
+   --main-color:#8e44ad;
+   --red:#e74c3c;
+   --orange:#f39c12;
+   --light-color:#888;
+   --light-bg:#eee;
+   --black:#2c3e50;
+   --white:#fff;
+   --border:.1rem solid rgba(0,0,0,.2);
+}
+
+/* *{
+   font-family: 'Nunito', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+*::selection{
+   background-color: var(--main-color);
+   color:#fff;
+} */
+
+/* html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+ */
+/* html::-webkit-scrollbar{
+   width: 1rem;
+   height: .5rem;
+}
+
+html::-webkit-scrollbar-track{
+   background-color: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+   background-color: var(--main-color);
+} */
+
+/* .studentprofile-body{
+   background-color: var(--light-bg);
+   padding-left: 8rem;
+} */
+/* .playlistvideobody{
+   padding-left: .5rem;
+   background-color: var(--light-bg);
+} */
+/* section{
+   padding:2rem;
+   margin: 0 auto;
+   max-width: 1200px;
+} */
+
+/* .heading{
+   font-size: 2.5rem;
+   color:var(--black);
+   margin-bottom: .5rem;
+   border-bottom: var(--border);
+   padding-bottom: .5rem;
+   text-transform: capitalize;
+} */
+
+/* .inlinebtn,
+.inline-option-btn,
+.inline-delete-btn,
+.btn,
+.delete-btn,
+.option-btn{
+   border-radius: .5rem;
+   color:#fff;
+   font-size: 1.8rem;
+   cursor: pointer;
+   text-transform: capitalize;
+   padding:1rem 3rem;
+   text-align: center;
+   margin-top: 1rem;
+}
+
+.btn,
+.delete-btn,
+.option-btn{
+   display: block;
+   width: 100%;
+}
+
+.inlinebtn,
+.inline-option-btn,
+.inline-delete-btn{
+   display: inline-block;
+}
+
+.btn,
+.inlinebtn{
+   background-color: var(--main-color);
+}
+
+.option-btn,
+.inline-option-btn{
+   background-color:var(--orange);
+}
+
+.delete-btn,
+.inline-delete-btn{
+   background-color: var(--red);
+}
+
+.inline-btn:hover,
+.inline-option-btn:hover,
+.inline-delete-btn:hover,
+.btn:hover,
+.delete-btn:hover,
+.option-btn:hover{
+   background-color: var(--black);
+   color: var(--white);
+}
+
+.flexbtn{
+   display: flex;
+   gap: 1rem;
+} */
+
+.inlinebtn{
+  background-color: var(--main-color);
+  border-radius: .5rem;
+   color:#fff;
+   font-size: 1rem;
+   cursor: pointer;
+   text-transform: capitalize;
+   padding:1rem 3rem;
+   text-align: center;
+   margin-top: 2rem;
+}
+.inline-btn:hover{
+  background-color: var(--black);
+   color: var(--white);
+}
+
+.sidebar{
+  position:sticky;
+  /* top: 10; left: 0; */
+  width: 20rem;
+  /* background-color: var(--white); */
+  background-color: #000;
+  /* height: 100vh; */
+  border-right: var(--border);
+  /* padding-bottom: 10rem; */
+  z-index: 600;
+}
+
+.sidebar .sidebarheader{
+  display: relative;
+align-items: left;
+justify-content: space-between;
+/* border: 1px solid #d1d7dc; */
+padding-bottom: 1rem;
+background-color: #fff;
+
+}
+ .sidebar .sidebarheading{
+  font-weight: 600;
+  line-height: 1.2;
+  /* letter-spacing: .02rem; */
+  font-size: 2rem;
+  text-align: center;
+  margin-top: .2rem;
+  margin-left:.2rem;
+}  
+
+ .sidenav {
+  margin: 5rem 0rem .1rem .2rem;
+  padding:1rem .2rem .5rem .2rem;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 340px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  /* z-index: 1; Stay on top */
+  top: 0; /*Stay at the top */
+  left: 0;
+  background-color: white;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  /* padding-top: 20px;
+  padding-bottom: 40px; */
+ }
+ 
+ /* The navigation menu links */
+.sidebardropdownbtn {
+  padding: .2rem .9rem .8rem .5rem;
+  /* text-decoration: none; */
+  border-radius: .4rem;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  text-align: centre;
+  cursor: pointer;
+  outline: none;
+  border: .5px solid;
+  /* background-color: light rgb(243, 235, 235); */
+  background-color: #ffffff;
+  margin: .5rem 0rem 0rem 0rem;
+  white-space: normal;
+  /* border-top: 0.8rem white solid;
+   border-right: 1.4rem white solid;
+   border-bottom: 1.4rem white solid;
+   border-left: 0.8rem white solid; */
+ }
+
+ .sidenav a{
+    text-decoration: none;
+   font-size: 18px;
+   display: block;
+   width: 100%;
+   text-align: left;
+   cursor: pointer;
+   outline: none;
+   background-color: light rgb(116, 71, 71);
+   white-space: normal;
+   border-width: 0.8rem 0.8rem 1.5rem 1.5rem;
+   padding: 6px 8px 6px 16px;
+ }
+ /* .sidenav .span-sidebar{
+    padding-bottom: 2rem;
+    font-size: 14px;
+   border-bottom: 2.5rem white solid;
+    border-left: 1.5rem white solid;
+
+ } */
+ 
+ .activelesson {
+   background-color: rgb(126, 128, 131);
+   color: white;
+ }
+ 
+ .dropdowncontainer {
+   display: none;
+   background-color: rgb(142, 144, 148);
+   margin:1rem 0.5rem 0.5rem 0.5rem;
+   /* padding-left: 8px; */
+ }
+ 
+ .fa-caret-down {
+   float: right;
+   padding-right: 8px;
+ }
+ 
+ /* When you mouse over the navigation links, change their color */
+ .sidenav a:hover {
+   color: rgb(0, 2, 0);
+   background-color: rgb(190, 193, 199);
+ }
+
+.watchvideo{
+  padding:2rem;
+  margin: 0rem .5rem 0rem 2rem;
+  /* max-width: 1300px; */
+  width: 80%;
+  z-index: inherit;
+}
+
+.watchvideo .videocontainer{
+  background-color: var(--white);
+  border-radius: .5rem;
+  margin: 3rem .1rem 2rem 18rem;
+  padding: 2rem 2rem 2rem 2rem ;
+  /* top: 200rem; */
+  width: 100%;
+  z-index: 300;
+}
+
+.watchvideo .videocontainer .video{
+   position: relative;
+   margin-bottom: 1.5rem;
+}
+
+.watchvideo .videocontainer .video video{
+   border-radius: .5rem;
+   width: 100%;
+   object-fit: contain;
+   background-color: #000;
+}
+
+.watchvideo .videocontainer .title{
+   font-size: 2rem;
+   color: var(--black);
+}
+
+.watchvideo .videocontainer .info{
+   display: flex;
+   margin-top: 1.5rem;
+   margin-bottom: 2rem;
+   border-bottom: var(--border);
+   padding-bottom: 1.5rem;
+   gap: 2.5rem;
+   align-items: center;
+}
+
+.watchvideo .videocontainer .info p{
+   font-size: 1.6rem;
+}
+
+.watchvideo .videocontainer .info p span{
+   color: var(--light-color);
+}
+
+.watchvideo .videocontainer .info i{
+   margin-right: 1rem;
+   color: var(--main-color);
+}
+
+.watchvideo .videocontainer .tutor{
+   display: flex;
+   align-items: center;
+   gap: 2rem;
+   margin: 1rem 2rem 3rem 0rem;
+}
+
+.watchvideo .videocontainer .tutor img{
+   border-radius: 50%;
+   height: 5rem;
+   width: 5rem;
+   object-fit: cover;
+}
+
+.watchvideo .videocontainer .tutor h3{
+   font-size: 2rem;
+   color: var(--black);
+   margin-bottom: .2rem;
+}
+
+.watchvideo .videocontainer .tutor span{
+   font-size: 1.5rem;
+   color: var(--light-color);
+}
+
+.watchvideo .videocontainer .flex{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 1.5rem;
+}
+
+.watchvideo .videocontainer .flex button{
+   border-radius: .5rem;
+   padding: 1rem 1.5rem;
+   font-size: 1.8rem;
+   cursor: pointer;
+   background-color: var(--light-bg);
+}
+
+.watchvideo .videocontainer .flex button i{
+   margin-right: 1rem;
+   color: var(--black);
+}
+
+.watchvideo .videocontainer .flex button span{
+   color: var(--light-color);
+}
+
+.watchvideo .videocontainer .flex button:hover{
+   background-color: var(--black);
+}
+
+.watchvideo .videocontainer .flex button:hover i{
+   color: var(--white);
+}
+
+.watchvideo .videocontainer .flex button:hover span{
+   color: var(--white);
+}
+
+.watchvideo .videocontainer .description{
+   line-height: 1.5;
+   font-size: 1.2rem;
+   color: var(--light-color);
+   margin-top: 2rem;
+}

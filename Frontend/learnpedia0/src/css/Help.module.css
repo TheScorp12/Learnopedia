@@ -1,0 +1,59 @@
+.helpbody {
+    /* background-color: black; 
+    background-image: url(../images/R.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 100px;
+    margin-right: 800px;
+  }
+  
+  .helpheading {
+    margin-top: 100px;
+    font-size: xx-large;
+  }
+
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    min-width: -200px;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 1s;
+  }
+  
+  .helpactive,
+  .accordion:hover {
+    background-color: #758283;
+  }
+  /* rgb(13, 110, 253) */
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+    min-width: 182px;
+  }
+  .none {
+    display: none;
+  }
+
+  .block {
+    display: block;
+  }
+
+  .imgright{
+    margin-top: -500px;
+    margin-left: 1000px;
+  }
+  .img {
+    width: -1000px;
+    height: -1000px;
+  }
+    
+  

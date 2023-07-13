@@ -1,0 +1,182 @@
+.welcome {
+    color: #fff;
+    width: 100%;
+    height: 100px;
+    margin-top: 72px;
+    background-color: #010718;
+    background: rgb(238, 174, 202);
+    background: #242B2E;
+    /* radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%); */
+    padding: 10px;
+
+}
+
+.typewriter h1 {
+    float: left;
+    font-family: monospace;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(30, end),
+        blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 27%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: orange
+    }
+}
+
+.continueLearning {
+    width: 100%;
+    height: 300px;
+    background-color: #242B2E;
+    margin-top: 10px;
+    padding: 10px;
+    color: #fff;
+}
+/* #afbbdc */
+.left {
+    float: left;
+    font-size: larger;
+}
+
+.right {
+    padding: 10px;
+    float: right;
+}
+
+.right .btnShome {
+    font-size:larger;
+    background: rgb(238, 174, 202);
+}
+
+.right .btnShome:hover {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+}
+
+.btnShome {
+    width: auto;
+    padding: 10px;
+    height: 50px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: var(--nav-color);
+    border-width: 0;
+    margin: 5px 10px 5px 0;
+}
+
+.recentCourse {
+    margin: 45px 0px 0px 25px;
+    height: 200px;
+    width: 80%;
+    background-color: white;
+    color: #0D0D0D;
+}
+
+.recentCourse img {
+    float: left;
+    margin: 20px 20px 0px 25px;
+    height: 150px;
+    width: 175px;
+}
+
+ .recentDetails {
+    padding: 20px 0px 20px 0px ;
+} 
+
+.progressBar {
+    height: 25px;
+    width: 75%;
+    margin-left: 220px;
+    background-color: #CAD5E2;
+}
+
+.progressBar div {
+    background-color: #242B2E;
+    height: 25px;
+    width: 60%;
+}
+
+.coursesBody {
+    margin: 35px 0 0 25px;
+}
+
+.cardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: 1rem;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+.addGrid {
+    overflow-x: scroll;
+}
+.add {
+    margin: 50px 65px 0px 55px;
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    color: #0D0D0D;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.add:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+    background-color: #758283;
+}
+
+/* center the icon in that div */
+.add i {
+    border-color: #758283;
+    border-width: 5px;
+    border-style: dashed;
+    font-size: 50px;
+    margin: 45px 0 0 120px;
+}
+
+.add:hover i {
+    border-color: #0D0D0D;
+}
+
+.addBtn {
+    position: absolute;
+    z-index: 1;
+    margin: 110px 0 0 100px;;  
+    background-color: white;
+    color: #0D0D0D;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 2px;
+}

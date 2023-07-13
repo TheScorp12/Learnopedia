@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "role": "admin",
+      "fname": "Karthikeya",
+      "email": "karthikeya.b20@iiits.in",
+      "phnumber": "9999999999",
+      "password": "11111",
+      "cnfpassword": "11111",
+      "gender": "male",
+      "lname": "Bethu",
+      "id": 1
+    },
+    {
+      "role": "student",
+      "fname": "Sanjay",
+      "lname": "Gnana",
+      "email": "test@iiits.in",
+      "phnumber": "9999999999",
+      "password": "12345",
+      "cnfpassword": "12345",
+      "gender": "male",
+      "id": 2
+    },
+    {
+      "role": "teacher",
+      "fname": "testf",
+      "lname": "testl",
+      "email": "test1@iiits.in",
+      "phnumber": "9999999999",
+      "password": "11111",
+      "cnfpassword": "11111",
+      "gender": "female",
+      "id": 3
+    },
+    {
+      "role": "student",
+      "fname": "test",
+      "lname": "test",
+      "email": "test@iiits.in",
+      "phnumber": "9999999999",
+      "password": "11111",
+      "cnfpassword": "11111",
+      "gender": "female",
+      "id": 4
+    },
+    {
+      "role": "student",
+      "fname": "test3",
+      "lname": "Bethu",
+      "email": "tests@iiits.in",
+      "phnumber": "9999999999",
+      "password": "11111",
+      "cnfpassword": "11111",
+      "gender": "male",
+      "id": 5
+    }
+  ],
+  "courses": [
+    {
+      "title": "Information Retrieval",
+      "price": "2999",
+      "categorydb": "engineering",
+      "desc": "The course helps you build search engines, so you can build your own search engine for you application. In this course you will build indexing, evaluation of IR systems",
+      "id": 1
+    },
+    {
+      "title": "Fundamentals of Full Stack",
+      "price": "999",
+      "categorydb": "engineering",
+      "desc": "Introduction to web development. You will learn html, css both frontend and backend javascript, nosql databases like mongodb @just 999 :)",
+      "id": 2
+    },
+    {
+      "title": "Could Computing ",
+      "price": "1499",
+      "categorydb": "engineering",
+      "desc": "Introduction to virtualization, containerization, bigdata and cloud computing",
+      "id": 3
+    },
+    {
+      "title": "Object Oriented programming",
+      "price": "3999",
+      "categorydb": "engineering",
+      "desc": "Object Oriented programming, In this course you will learn object oriented principles using java. ",
+      "id": 4
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

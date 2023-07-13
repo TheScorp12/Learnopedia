@@ -1,0 +1,155 @@
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.row-courseinfo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.side-courseinfo {
+  margin-top: 50px;
+  flex: 30%;
+  background-color: rgb(199, 225, 233);
+  /* background-color: #f1f1f1; */
+  padding: 20px;
+}
+
+/* Main column */
+.main-courseinfo {
+  margin-top: 50px;
+  flex: 70%;
+  padding: 20px;
+}
+.stars {
+  width: 15px;
+  height: 15px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  align-items: flex-start;
+  margin-top: 75px;
+}
+
+.card {
+  --padding: 1rem;
+  background: rgba(204, 204, 204, 0.5);
+  border: 1px solid #777;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.course-card {
+  height: 370px;
+}
+
+.card.card-shadow {
+  border: none;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  font-size: 1.5rem;
+  padding: var(--padding);
+  padding-bottom: 0;
+  margin-bottom: 0.5rem;
+}
+
+.card-header.card-image.card-title{
+  padding: 10px;
+  overflow: hidden;
+}
+.card-header.card-image {
+  padding: 0px;
+  overflow: hidden;
+}
+
+.card-header.card-image > img {
+  display: block;
+  width: 100%;
+  max-height: 200px;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+  transition: 200ms transform ease-in-out;
+}
+
+.card:hover > .card-header.card-image > img {
+  transform: scale(1.025);
+}
+
+.card-body {
+  font-size: 0.9rem;
+  padding: 0 25px;
+}
+
+.card-body-business {
+
+    font-size: .9rem;
+    padding: 0 var(--padding);
+    margin-top: 3%;
+  }
+  
+
+.card-footer {
+  margin-top: 1rem;
+  padding: var(--padding);
+  padding-top: 0;
+}
+
+.card-footer > button {
+  margin: 5px;
+}
+
+.card-student {
+  background: rgb(
+    204,
+    204,
+    204
+  ); /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.5);
+
+  margin: 50px auto;
+  width: 90%;
+  height: 500px;
+}
+
+.card-head-std {
+  min-height: 200px;
+}
+.profile-card-body {
+  padding-bottom: 20px;
+}
+
+.container.card {
+  margin-left: 100px;
+  width: 800px;
+  height: 40px;
+}
+
+.card-recent {
+  background: rgba(204, 204, 204, 0.5);
+  cursor: pointer;
+  margin: 0px 50px 15px 50px;
+}
+
+.clist-card {
+  background-color: coral;
+  color: white;
+}
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side-courseinfo {
+  margin-top: 50px;
+  flex: 30%;
+  background-color: rgb(199, 225, 233);
+  /* background-color: #f1f1f1; */
+  padding: 20px;
+}

@@ -1,0 +1,73 @@
+.ibody {
+    /* background-image: url(../images/instructorbg.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  
+  .btn {
+    border-radius: 20px;
+  }
+  
+  .showall .btn {
+    margin: 10px;
+    float: right;
+    padding: 5px;
+  }
+  
+  .upload .btn {
+    color: black;
+    border-width: 2px;
+    width: 100%;
+    margin: 2px;
+    padding: 10px;
+  }
+  
+  .card {
+    --padding: 1rem;
+    background: rgba(204, 204, 204, 0.5);
+    border: 1px solid #777;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px;
+  }
+  
+  .sphead {
+    margin: 100px 50px 0px 50px;
+    height: 45px;
+    padding-top: 10px;
+  }
+  
+  .card-body {
+    font-size: 0.9rem;
+    padding: 0 var(--padding);
+  }
+  
+  .card-recent {
+    background: rgba(204, 204, 204, 0.5);
+    cursor: pointer;
+    margin: 0px 50px 15px 50px;
+  }
+  
+  .card-header {
+    font-size: 1.5rem;
+    padding: var(--padding);
+    padding-bottom: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .profile-card-body {
+    padding-bottom: 20px;
+  }
+  
+  .showall {
+    background: rgba(204, 204, 204, 0.5);
+    margin: -15px 50px 20px 50px;
+  }
+  
+  .upload {
+    background: rgba(204, 204, 204, 0.1);
+    border: 0px;
+    margin: 100px 50px 20px 50px;
+  }
+  

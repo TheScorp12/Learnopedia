@@ -1,0 +1,84 @@
+
+
+/*table styling*/
+.body{
+    margin: 70px 0 0 0 ;
+	/* padding: 35px 20px; */
+}
+/* h1, main {
+	text-align: center;
+} */
+table {
+	border-collapse: collapse;
+	display: inline-block;
+	text-align: left;
+	border-top: 1px solid #888;
+}
+table thead {
+	background: #bbb;
+}
+table tr:nth-child(even) {
+	background: #dfdfdf;
+}
+table th, table td {
+	padding: 10px 20px;
+	border: 1px solid #888;
+	border-width: 0 1px 1px;
+}
+/*responsive table*/
+@media screen and (max-width: 1000px) {
+	/*put each field on its own line and align text to the right
+	 *border is added for further readability
+	 */
+	table td {
+		display: block;
+		text-align: right;
+	}
+	/*put data-label content before each field floated to the left*/
+	table td:before {
+		content: attr(data-label);
+		float: left;
+		font-weight: bold;
+		margin-right: 10px;
+	}
+	/*remove thead*/
+	table thead {
+		display: none;
+	}
+} 
+
+.column {
+    float: left;
+    padding: 10px;
+  }
+  
+  .left {
+    width: 20%;
+    /* background-color: rgb(85, 185, 216); */
+    background-color: var(--nav-color);
+    height: 100vh;
+    padding: 0;
+  }
+  
+  .right {
+    width: 80%;
+
+  }
+
+  .section {
+    width: 100%;
+    margin: 0%;
+    padding: 5px;
+    height: 50px;
+    font-size: 25px;
+    /* background-color: #888; */
+    border: 1px solid #888;
+    border-width: 0 1px 1px;
+    color: white;
+  }
+
+  .section:hover {
+    background: linear-gradient(to left, white 50%, var(--nav-color) 50%) right;
+    background-size: 200% 100%;
+    color: #3d5adb;
+  }

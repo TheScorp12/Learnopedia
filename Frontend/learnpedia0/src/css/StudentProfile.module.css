@@ -1,0 +1,307 @@
+ 
+ /* .body{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+ }
+  */
+
+ 
+/* .body > *{
+    font-size: 63%;
+    overflow-x: hidden;
+ } */
+ 
+
+ .studentprofilebody{
+   padding-top: 100px;
+}
+.courses{
+   padding:2rem;
+   margin: 0rem 5rem 0rem 4rem;
+   /* max-width: 160px; */
+   width: 90%;
+}
+
+.heading{
+   font-size: 2.5rem;
+   color:#2c3e50;
+   margin-bottom: 2.5rem;
+   border-bottom: .1rem solid rgba(0,0,0,.2);
+   padding-bottom: .5rem;
+   text-transform: capitalize;
+   text-align: center;
+}
+
+/* .inlinebtn,
+.inline-option-btn,
+.inline-delete-btn,
+.btn,
+.delete-btn,
+.option-btn{
+   border-radius: .2rem;
+   color:#fff;
+   font-size: 1rem;
+   cursor: pointer;
+   text-transform: capitalize;
+   padding:.2rem .6rem;
+   text-align: center;
+   margin-top: .2rem;
+}
+
+.btn,
+.delete-btn,
+.option-btn{
+   display: block;
+   width: 100%;
+}
+
+.inlinebtn,
+.inline-option-btn,
+.inline-delete-btn{
+   display: inline-block;
+}
+
+.btn,
+.inlinebtn{
+   background-color: #8e44ad;
+}
+
+.option-btn,
+.inline-option-btn{
+   background-color:#f39c12;
+}
+
+.delete-btn,
+.inline-delete-btn{
+   background-color: #e74c3c;
+}
+
+.inline-btn:hover,
+.inline-option-btn:hover,
+.inline-delete-btn:hover,
+.btn:hover,
+.delete-btn:hover,
+.option-btn:hover{
+   background-color: #2c3e50;
+   color: #fff;
+}
+ */
+.flexbtn{
+   display: flex;
+   gap: 1rem;
+}
+.inlinebtn{
+  background-color: #8e44ad;
+  /* display: inline-block; */
+  border-radius: .2rem;
+   color:#fff;
+   font-size: 1rem;
+   cursor: pointer;
+   /* text-transform: capitalize; */
+   padding:.4rem .6rem;
+   text-align: center;
+   /* margin : .8rem 3rem 0rem 2rem; */
+   text-decoration: none;
+}
+.userprofile .userprofilecontainer{
+  display: flex;
+}
+.userprofile .userdetails{
+  float: left;
+  height: 50 rem;
+  text-align: center;
+  background-color: rgb(194, 187, 187);
+   border-radius: .5rem;
+   margin: 0rem .1rem 0rem 1rem;
+   padding: 1rem 1rem 1rem 1rem;
+   flex: 10%;
+}
+
+.userprofile .info{
+   background-color: #fff;
+   border-radius: .5rem;
+   margin: 0rem 2rem 0rem 2rem;
+   padding: 2rem 2rem 1rem 2rem;
+   flex: 60%;
+}
+
+.userprofile .info .user,
+.userprofile .userdetails .user {
+   text-align: center;
+   margin-bottom: .5rem;
+   padding: .25rem;
+}
+
+.userprofile .info .user img,
+.userprofile .userdetails .user img{
+   height: 10rem;
+   width: 10rem;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-bottom: 1rem;
+}
+
+.userprofile .info .user .rowdetails{
+   display: flex;
+   margin-bottom: .8rem;
+   /* border-color: rgb(30, 141, 141); */
+   border-width: 2px;  
+   border-bottom-style:inset;
+}
+.userprofile .info .user h6{
+   flex:50%;
+   font-size: 1.2rem;
+   color: #2c3e50;
+   text-align: left;
+}
+
+.userprofile .info .user p,
+.userprofile .userdetails .user p{
+   font-size: 1.2rem;
+   color: #888;
+   padding: .3rem 0 .4rem ;
+} 
+
+/* .userprofile .info .user .userbuttons{
+   display: flex;
+   margin-top: 5rem;
+}
+.userprofile .userdetails .user .userbuttons .userinlinebtn{
+   flex: 50%;
+   background-color: #8e44ad;
+  border-radius: .2rem;
+   color:#fff;
+   font-size: 1rem;
+   cursor: pointer;
+   margin : 0rem .5rem 0rem .5rem;
+   padding:.2rem .6rem;
+   text-transform: capitalize;
+   padding:.2rem .6rem;
+   text-align: center;
+   margin-top: .2rem;
+   margin : 0rem 3rem 0rem 12rem;
+   
+} */
+
+
+
+
+.courses .boxcontainer{
+  font-size: 6px;
+   display: grid;
+   border:0rem 8rem 0rem 8rem;
+   grid-template-columns: repeat(auto-fit, minmax(18rem, 3fr));
+   gap:1rem;
+   /* justify-content: center; */
+   /* align-items: flex-start; */
+}
+
+.courses .boxcontainer .box{
+  font-size: 10px;
+   /* border-radius: 1.5rem; */
+   background-color: #fff;
+   border:0rem 1rem 0rem 1rem;
+   padding:0rem .2rem .2rem .2rem ;
+   /* padding: .2rem; */
+}
+
+.courses .boxcontainer .box .tutor{
+   display: flex;
+   align-items: center;
+   gap: 1.5rem;
+   margin: 1.5rem 0rem 1rem 3rem ;
+}
+
+.courses .boxcontainer .box .tutor img{
+   height: 2.5rem;
+   width: 2.5rem;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.courses .boxcontainer .box .tutor h3{
+   font-size: 1.2rem;
+   color: #2c3e50;
+   margin-bottom: .2rem;
+}
+
+.courses .boxcontainer .box .tutor span{
+   font-size: 1.0rem;
+   color:#888;
+}
+
+.courses .boxcontainer .box .thumb{
+   position: relative;
+   padding: .1rem;
+}
+
+.courses .boxcontainer .box .thumb span{
+   position: absolute;
+   top:1rem; left: 1rem;
+   border-radius: .5rem;
+   padding: .5rem 1.5rem;
+   background-color: rgba(0,0,0,.3);
+   color: #fff;
+   font-size: 1.5rem;
+}
+
+.courses .boxcontainer .box .thumb img{
+   width: 100%;
+   height: 12rem;
+   object-fit: cover;
+   border: 0rem 0rem 0rem 0rem;
+   /* border-radius: .5rem; */
+}
+
+.courses .boxcontainer .box .title{
+   /* font-size: 1.5rem;
+   color: #2c3e50;
+   padding-bottom: .5rem;
+   padding-top: 1rem;
+   text-align: center; */
+   padding: 6px 20px 6px 16px;
+ /* text-decoration: none; */
+ font-size: 17px;
+ display: block;
+ width: 100%;
+ text-align: centre;
+ cursor: pointer;
+ outline: none;
+ /* background-color: light rgb(243, 235, 235); */
+ margin: 0rem 3rem 1rem 0rem;
+ white-space: normal;
+}
+.courses .boxcontainer .box .universityname{
+   font-size: 1rem;
+   font-style: oblique;
+   color:#2c3e50;
+   padding-left: 1rem;
+}
+.courses .boxcontainer .box .description{
+  font-size: .8rem;
+  font-weight:400;
+  font-style:italic;
+  color:#2c3e50;
+  padding: 1rem;
+}
+.courses .boxcontainer .box .coursetype h5{
+  font-size: 1rem;
+  font-style: oblique;
+  color:#2c3e50;
+  margin: .3rem .4rem .4rem .8rem;
+}
+.courses .boxcontainer .box .enroll{
+  font-size: .8rem;
+  font-style: oblique;
+  color:#2c3e50;
+  margin: 1rem .4rem 1.2rem 5rem;
+  /* margin:10px auto; */
+}
+
+.courses .morebtn{
+   text-align: center;
+   margin-top: 2rem;
+}
